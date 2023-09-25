@@ -6,6 +6,7 @@ import DebuggerDuck from './components/DebuggerDuck';
 import Footer from './components/Footer';
 
 const App = () => {
+  const [unusedState, setUnusedState] = useState();
   const [allDucks, setAllDucks] = useState([
     {
       id: crypto.randomUUID(),
